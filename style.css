@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(42, 71, 71);
+    color: white;
+
+}
+
+.header {
+    top: 0;
+    background: url(/images/background.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 80%, transparent 100%);
+
+}
+
+h1 {
+    top: 0;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+
+
+p {
+    line-height: 120%;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(123, 169, 147);
+    border: 5px solid rgb(168, 212, 192);
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    width: 60%;
+}
+
+
+.imageFull {
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+}
+
+.image80 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: block;
+}
