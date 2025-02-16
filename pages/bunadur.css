@@ -6,44 +6,29 @@ body {
 
 }
 
+
 p {
-    width: fit-content;
+    line-height: 120%;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(123, 169, 147);
+    border: 5px solid rgb(168, 212, 192);
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 h2 {
     font-size: 32px;
+    text-align: center;
+
 }
 
 img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    display: block;
     border-radius: 30px;
-}
-
-#space {
-    padding: 30px;
-}
-
-.gridBunadur {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    padding-right: 10px;
-}
-
-.bunadurImage1 {
-    grid-area: 1 / 1 / 7 / 7;
-    text-align: center;
-}
-
-.bunadurText1 {
-    grid-area: 1 / 7 / 7 / 11;
-}
-
-.bunadurImage2 {
-    grid-area: 1 / 5 / 7 / 11;
-}
-
-.bunadurText2 {
-    grid-area: 1 / 1 / 7 / 5;
 }
