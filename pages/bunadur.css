@@ -1,5 +1,8 @@
 body {
     width: 100%;
+    background-color: rgb(42, 71, 71);
+    color: white;
+
 
 }
 
@@ -13,6 +16,10 @@ h2 {
 
 img {
     border-radius: 30px;
+}
+
+#space {
+    padding: 30px;
 }
 
 .gridBunadur {
